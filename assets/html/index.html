@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="scroll" onclick="myFunction()" class="scroll-smooth z-[2] w-[40px] h-[40px] flex  bg-red-600 fixed cursor-pointer right-[25px] bottom-[30px] text-center " >
+        <i class="fa-solid fa-circle-chevron-up text-[2rem] place-self-center m-[3px]" ></i>
+    </div>
+    <!-- navbar -->
+    <header class="flex justify-between h-[80px] sticky top-0 bg-white z-[1]">
+        <div class=" w-[25%] flex justify-end"><img class="h-[100%] cursor-pointer"
+                src="../images/Portfolio.hu_full_logo.png" alt="image"></div>
+        <nav class="text-xl  font-extrabold flex place-items-center w-[60%] justify-center gap-x-4">
+            <a href="#" class="hover:text-amber-900">Home</a>
+            <a href="#" class="hover:text-amber-900">About</a>
+            <a href="#" class="hover:text-amber-900">Service</a>
+            <a href="#" class="hover:text-amber-900">Skills</a>
+            <a href="#" class="hover:text-amber-900">Teams</a>
+            <a href="#" class="hover:text-amber-900">Contact</a>
+        </nav>
+    </header>
+<div>
+    <!-- page 1 -->
+    <main class="w-[100%] h-[85vh] flex flex-col justify-center bg-red-950">
+        <div class="flex justify-evenly place-items-center">
+            <div class="w-[60%] ">
+                <p class="text-2xl text-white p-[5px]">Hello, my name is</p>
+                <p class="text-5xl text-white p-[5px] name"></p>
+                <p id="job" class="text-4xl text-blue-600 p-[15px]"></p>
+                <button
+                    class="p-[10px] rounded-[10px] text-xl text-white bg-green-500 w-[130px] hover:text-blue-950 hover:bg-white  hover:text-xl hover:text-red-600">Hire
+                    me</button>
+            </div>
+            <div class="w-[30vw] h-[60vh] "><img class="w-[100%] h-[100%] object-cover rounded-3xl"
+                    src="../images/photo.jpg" alt="photo"></div>
+        </div>
+    </main>
+    <!-- page 2 -->
+    <main class="h-[90vh] ">
+        <div>
+            <div class="h-[20vh] text-center  flex flex-col justify-center">
+                <p class="text-3xl text-center font-medium inline">About me</p>
+                <div class="flex gap-x-2 place-self-center">
+                    <hr class="bg-black w-[3vw] h-[3px] mt-[13px]">
+                    <p class="font-bold text-red-700 text-l">who with me </p>
+                    <hr class="bg-black w-[3vw] h-[3px] mt-[13px]">
+                </div>
+            </div>
+
+            <div class="w-[100%] flex justify-evenly">
+                <div class="flex justify-end w-[30%] h-[65vh] "><img class="w-[95%] bg-black rounded-[10px]"
+                        src="../images/photoNew.jpg" alt=""></div>
+                <div class="w-[60%] flex flex-col justify-center gap-y-4">
+                    <p class="text-2xl font-semibold">I am Prakash and I am blog</p>
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt architecto aut
+                        earum porro tempore excepturi sequi, tenetur officia. Pariatur, illo! Consectetur, temporibus
+                        illum pariatur atque animi qui iure officia. Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Debitis animi aliquam, impedit eum cupiditate illum ipsum? Tempore ratione doloribus,
+                        dolor est aliquam ipsa voluptas incidunt, ad ducimus debitis iste neque.
+                        Soluta excepturi tempore explicabo pariatur provident, nulla facere quos sed accusamus ratione
+                        facilis aut, quis doloremque reprehenderit necessitatibus at maxime quasi. Neque accusamus
+                        nesciunt voluptatibus doloremque dolore. Facere, saepe officiis.</p>
+                    <button
+                        class="text-white text-[1.3rem] bg-red-900 p-[10px] rounded-[6px] w-[30%] hover:bg-green-800 ">DOWNLOAD
+                        CV</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- page 3 -->
+    <main class="h-[90vh] bg-black">
+        <div class="h-[30%]  flex flex-col justify-center text-center">
+
+
+            <p class="text-4xl font-semibold text-white">My service</p>
+            <div class="flex gap-x-2 place-self-center">
+                <hr class="bg-white w-[3vw] h-[3px] mt-[13px]">
+                <p class="font-bold text-red-700 text-l">who with me </p>
+                <hr class="bg-white w-[3vw] h-[3px] mt-[13px]">
+            </div>
+        </div>
+
+        <div class="flex wrap justify-evenly gap-[10px] ">
+
+            <div class="bg-zinc-700 w-[30vw] rounded-[5px] duration-300 hover:bg-red-800 hover:scale-105 ">
+                <div class="text-center"><img class="w-[80px] h-[80px] object-cover" src="../images/images.png" alt="">
+                </div>
+                <div class="text-3xl font-semibold text-center text-white">Web design</div>
+                <div class="text-center p-[20px] text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquid illum omnis corporis saepe
+                    repudiandae totam, fuga nihil nemo fugit ducimus a repellat porro praesentium rem doloremque?
+                    Tempora modi ducimus amet.</div>
+            </div>
+
+            <div class="bg-zinc-700 w-[30vw] rounded-[5px] duration-300  hover:bg-red-800 hover:scale-105 ">
+                <div><img class="w-[80px] h-[80px] object-cover text-center" src="../images/adversiting.png" alt="">
+                </div>
+                <div class="text-3xl font-semibold text-center text-white">Advertising</div>
+                <div class="text-center p-[20px] text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquid illum omnis corporis saepe
+                    repudiandae totam, fuga nihil nemo fugit ducimus a repellat porro praesentium rem doloremque?
+                    Tempora modi ducimus amet.</div>
+            </div>
+
+            <div class="bg-zinc-700 w-[30vw] rounded-[5px] duration-300 hover:bg-red-800 hover:scale-105 ">
+                <div class="text-center "><img class="text-center w-[80px] h-[80px] object-cover "
+                        src="../images/apps.png" alt=""></div>
+                <div class="text-3xl font-semibold text-center text-white">Apps design</div>
+                <div class="p-[20px] text-center text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquid illum omnis corporis saepe
+                    repudiandae totam, fuga nihil nemo fugit ducimus a repellat porro praesentium rem doloremque?
+                    Tempora modi ducimus amet.</div>
+            </div>
+        </div>
+    </main>
+    <!-- page 4 -->
+    <main class="h-[90vh]">
+
+        <div class="flex flex-col justify-center h-[40%] text-center">
+            <p class="text-4xl font-semibold ">My skills</p>
+            <div class="flex gap-x-2 place-self-center">
+                <hr class="bg-black w-[3vw] h-[3px] mt-[13px]">
+                <p class="font-bold text-red-700 text-l">who with me </p>
+                <hr class="bg-black w-[3vw] h-[3px] mt-[13px]">
+            </div>
+        </div>
+
+        <div class="flex justify-evenly ">
+            <div class="w-[50%] flex flex-col  gap-y-3">
+                <p class="font-bold ">My creative skills & exprience</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, vero, sapiente eius nisi magni
+                    expedita dolorum minima doloribus molestias alias sit, odio consequatur nobis. Ea repellat expedita
+                    tempora architecto quam?
+                    Accusantium accusamus adipisci deserunt quam minus dignissimos, sint laboriosam. Voluptate, unde
+                    quis dignissimos ratione qui dolore doloribus fugit saepe delectus aliquid et, modi magni accusamus
+                    eaque soluta veritatis a perspiciatis.
+                    Eius illum ratione ea sapiente quo voluptates non maxime possimus quis quod excepturi esse in facere
+                    modi, vel perferendis dolorem, fuga recusandae quam officia debitis, quia eveniet. Consectetur,
+                    dicta veritatis.</p>
+                <button
+                    class="text-white text-[1.3rem] bg-red-900 p-[7px] rounded-[6px] hover:text-red-600 hover:border-red-600  hover:bg-white hover:border-2 w-[20%]">Read
+                    more</button>
+            </div>
+
+            <div class="flex flex-col gap-y-2">
+                <div class="flex justify-between">
+                    <p>HTML</p>
+                    <p>90%</p>
+                </div>
+                <span class="flex inline">
+                    <hr class="w-[37vw] h-[8px] bg-red-900">
+                    <hr class="w-[3vw] h-[8px] bg-gray-400">
+                </span>
+
+                <div class="flex justify-between">
+                    <p>CSS</p>
+                    <p>60%</p>
+                </div>
+                <span class="flex inline">
+                    <hr class="w-[33vw] h-[8px] bg-red-900">
+                    <hr class="w-[7vw] h-[8px] bg-gray-400">
+                </span>
+
+                <div class="flex justify-between">
+                    <p>JavaScript</p>
+                    <p>80%</p>
+                </div>
+                <span class="flex inline">
+                    <hr class="w-[35vw] h-[8px] bg-red-900">
+                    <hr class="w-[5vw] h-[8px] bg-gray-400">
+                </span>
+
+                <div class="flex justify-between">
+                    <p>PHP</p>
+                    <p>50%</p>
+                </div>
+                <span class="flex inline">
+                    <hr class="w-[20vw] h-[8px] bg-red-900">
+                    <hr class="w-[20vw] h-[8px] bg-gray-400">
+                </span>
+
+                <div class="flex justify-between">
+                    <p>MYSQL</p>
+                    <p>70%</p>
+                </div>
+                <span class="flex inline">
+                    <hr class="w-[34vw] h-[8px] bg-red-900">
+                    <hr class="w-[6vw] h-[8px] bg-gray-400">
+                </span>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- page 5 -->
+    <main class="h-[90vh] bg-black">
+        <div class="flex flex-col justify-center h-[40%] text-center text-white">
+            <p class="text-4xl font-semibold">My teams</p>
+            <div class="flex gap-x-2 place-self-center">
+                <hr class="bg-white w-[3vw] h-[3px] mt-[13px]">
+                <p class="font-bold text-red-700 text-l">who with me </p>
+                <hr class="bg-white w-[3vw] h-[3px] mt-[13px]">
+            </div>
+        </div>
+
+        <div id="carousel" class="flex flex-wrap justify-evenly">
+            <div class="">
+                <div
+                    class="bg-gray-800 duration-300 rounded-[7px] flex flex-col gap-y-3  hover:bg-red-600 hover:border-white">
+                    <div class="flex  place-self-center">
+                        <div class=" rounded-[50%] border-8 border-white w-[11vw] h-[23vh]  mt-[10px]"><img
+                                class="w-[100%] h-[100%] rounded-[50%] object-cover "
+                                src="../images/man-carousel-1.jpeg" alt=""></div>
+                    </div>
+                    <p class="text-white  text-2xl text-center">Someone name</p>
+                    <span class="text-white p-[10px] w-[30vw]  flex justify-center">
+                        <p class=" w-[15vw]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <div
+                    class="bg-gray-800 duration-300 rounded-[7px] flex flex-col gap-y-3 text-center hover:bg-red-600 hover:border-white">
+                    <div class="flex justify-center">
+                        <div class=" rounded-[50%] border-8 border-white w-[11vw] h-[23vh]  mt-[10px]"><img
+                                class="w-[100%] h-[100%] rounded-[50%] object-cover "
+                                src="../images/man-carousel-2.jpeg" alt=""></div>
+                    </div>
+                    <p class="text-white  text-2xl">Someone name</p>
+                    <span class="text-white p-[10px] w-[30vw]  flex justify-center">
+                        <p class=" w-[15vw]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <div
+                    class="bg-gray-800 duration-300 rounded-[7px] flex flex-col gap-y-3 text-center hover:bg-red-600 hover:border-white">
+                    <div class="flex justify-center">
+                        <div class=" rounded-[50%] border-8 border-white w-[11vw] h-[23vh] mt-[10px]"><img
+                                class="w-[100%] h-[100%] rounded-[50%] object-cover "
+                                src="../images/man-carousel-3.jpeg" alt=""></div>
+                    </div>
+                    <p class="text-white  text-2xl">Someone name</p>
+                    <span class="text-white p-[10px] w-[30vw]  flex justify-center">
+                        <p class=" w-[15vw]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+        <article class="flex  flex-col justify-center h-[10vh] w-[90vw] ">
+            <span class="flex inline place-self-center gap-x-4 cursor-pointer">
+                <div class="w-[10px] h-[10px] bg-red-600 rounded-[50%]">
+                <div class="w-[20px] h-[10px] rounded-[5px] bg-red-600">
+            </span>
+        </article>
+    </main>
+
+    <!-- page 6  -->
+    <main class="h-[90vh]">
+        <div class="flex flex-col justify-center h-[40%] text-center">
+            <p class="text-4xl font-semibold ">My teams</p>
+            <div class="flex gap-x-2 place-self-center">
+                <hr class="bg-black w-[3vw] h-[3px] mt-[13px]">
+                <p class="font-bold text-red-700 text-l">who with me </p>
+                <hr class="bg-black w-[3vw] h-[3px] mt-[13px]">
+            </div>
+        </div>
+        <div class="flex justify-evenly">
+            <div class="w-[45%] flex flex-col gap-y-2">
+                <p class="font-semibold text-2xl">Get in touch</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id reprehenderit possimus et, corporis
+                    impedit quo molestiae aliquid hic aliquam odit. Dolores cupiditate laudantium quas temporibus illum
+                    inventore possimus omnis reiciendis?</p>
+                <div class="flex gap-x-2">
+                    <div class="w-[30px] h-[30px]  "><img class="w-[100%] h-[100%] rounded-[50%] object-cover"
+                            src="../images/user-icon.webp" alt="User photo"></div>
+                    <div class="">
+                        <p class="font-semibold">Name</p>
+                        <p id="name" class="text-gray-800 "></p>
+                    </div>
+                </div>
+
+                <div class="flex gap-x-2">
+                    <div class="w-[30px] h-[30px]  "><img class="w-[100%] h-[100%] rounded-[50%] object-cover"
+                            src="../images/konum-icon.webp" alt="User photo"></div>
+                    <div class="">
+                        <p class="font-semibold">Address</p>
+                        <p class="text-gray-800 ">Shurnet,Nepal</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-x-2">
+                    <div class="w-[30px] h-[30px] "><img class="w-[90%] h-[90%]  " src="../images/email-icon.png"
+                            alt="User photo"></div>
+                    <div class="">
+                        <p class="font-semibold">Email</p>
+                        <p class="text-gray-800 ">abcd1234@gmail.com</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <form id="form">
+                <legend class="font-semibold text-2xl pb-[20px]" >Message me</legend>
+                <label for="name"></label><input type="text" id="name" required placeholder="Name"
+                    class="border-black border-2 p-[5px] rounded-[5px] w-[20vw]">
+                <label for="email"></label><input type="email" placeholder="Email"
+                    class="border-black border-2 p-[5px] rounded-[5px] w-[19.5vw]" required>
+                <label for="text"></label><input type="text" placeholder="Subject" id="text"
+                    class="border-black border-2 block p-[5px] w-[40vw] my-[5px] rounded-[5px]" required>
+                <label for=""></label><textarea cols="10" placeholder=" Message..." rows="4"
+                    class="border-black border-2 w-[40vw] rounded-[5px] " required></textarea>
+                <label for="submit"></label><input type="submit" id="submit" value="Send message"
+                    class="border-black  block p-[5px] rounded-[8px] w-[17vw] bg-red-600 text-white text-[1.3rem]">
+            </form>
+        </div>
+    </main>
+    <footer class="bg-black h-[7vh] text-white flex flex-col place-items-center text-[1.3rem]">&copy; Copyright 2024 All
+        right reserved.
+        </footer>
+    
+    <!-- scroll button -->
+    
+</div>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
